@@ -1,0 +1,75 @@
+.paymentSection{
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardBox{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    padding: 50px !important;
+    border-radius: 7px;
+    box-shadow: 0px 1px 6px 0px #8b8b8b;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.icons{
+    margin-left: auto;
+    text-align: end;
+}
+.cardBox span{
+    color: rgb(1, 1, 1);
+    font-weight: 500;
+}
+
+.cardBox input{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    margin-right: 10px;
+}
+.cardBox input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+.cardBox .header{
+    font-size: 1.5rem;
+}
+
+
+
+.cardBox input[type=checkbox]{
+    width: unset;
+    margin-bottom: unset;
+}
+.cardBox #cvv{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575) , rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+} 
+.paymentBtn button{
+    width: 100%;
+    margin: 10px 0px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(65deg, #279aff 0, #2585df 100%);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

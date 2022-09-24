@@ -1,0 +1,86 @@
+.AddCenterPosition{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    padding: 50px 30px !important;
+    background-color: #fff;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.addHeading h1{
+text-align: center;
+    font-size: 38px;
+line-height: 65px;
+letter-spacing: 0px;
+clear: both;
+color: #282828;
+font-weight: 600;
+}
+.addRoom label{
+    display: block;
+color: #1f2024;
+font-size: 19px;
+font-weight: 500;
+line-height: 19px;
+margin-bottom: 10px;
+}
+.addRoom input{
+    border: 1px solid #2585df;
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.addRoom textarea{
+    border: 1px solid #2585df;
+    padding: 12px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.addRoom button{
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 500;
+    background: linear-gradient(65deg, #279aff 0, #2585df 100%);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.addRoom select{
+    width: 100%;
+    border: 1px solid #2585df;
+padding: 12px 15px;
+border-radius: 5px;
+background: rgba(255, 255, 255, .1);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+width: 100%;
+margin-bottom: 10px;
+}

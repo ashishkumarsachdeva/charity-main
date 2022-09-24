@@ -1,0 +1,31 @@
+
+.form-control:focus {
+    box-shadow: none !important; 
+}
+
+/* new registration */
+.registrationSection .input-group input,.registrationSection .input-group select,.registrationSection .input-group .input-group-prepend .input-group-text{
+     border: none !important;
+     height: 45px;
+}
+.registrationSection .input-group{
+    padding: 0px !important;
+    width: 100%;
+    border: 1px solid #80bdff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* .inputBorder{
+    border
+} */
+
+.registerBtn button{
+    background: #1161ee;
+color: #fff !important;
+border: none;
+padding: 15px 30px;
+border-radius: 25px;
+}
